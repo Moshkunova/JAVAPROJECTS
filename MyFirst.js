@@ -12,7 +12,7 @@ var obj = {};
 {
     let second = 2;
 }
-const pi = 3.1415926;*/
+const pi = 3.1415926;
 let person = {
     name: "John",
     adge: 20,
@@ -24,7 +24,7 @@ let arr = ['plum.png', 'orange.jpeg', 'apple.bmp'];
 
 console.log(arr[2]);
 
-alert("Hello");
+//alert("Hello");
 
 let answer = confirm("A you here?");
 console.log(answer);
@@ -64,3 +64,11 @@ let isChecked = true,
 console.log(isChecked && isClose);
 console.log(isChecked || isClose);
 console.log(isChecked || !isClose);
+if (2*4 == 8) {
+console.log("Верно!")
+}
+*/
+function showFirstMessage(text) {
+    alert(text);
+}
+showFirstMessage("Hello");
